@@ -1,3 +1,4 @@
+const { prototype } = require("events")
 const express=require("express")
 const app=express()
 const server=require("http").Server(app)
@@ -17,5 +18,5 @@ app.get('/:room',(req,res)=>{
 
 
 
-server.listen(3030)
+server.listen(3030 || process.env.PORT)
 
