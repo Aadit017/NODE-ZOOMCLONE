@@ -1,0 +1,23 @@
+{
+  "name": "zoomclone",
+  "version": "1.0.0",
+  "description": "zoom clone with node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadit017/NODE-ZOOMCLONE.git"
+  },
+  "author": "aadit singh bagga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aadit017/NODE-ZOOMCLONE/issues"
+  },
+  "homepage": "https://github.com/Aadit017/NODE-ZOOMCLONE#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
